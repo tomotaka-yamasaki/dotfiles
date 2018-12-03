@@ -1,0 +1,29 @@
+[user]
+	name = kuroki-ty
+	email = t.yamasaki11@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = false
+	safecrlf = true
+	whitespace = cr-at-eol
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[pager]
+	log = diff-highlight | less
+	show = diff-highlight | less
+	diff = diff-highlight | less
+[interactive]
+	diffFilter = diff-highlight
+[diff]
+	compactionHeuristic = true
+[color "diff"]
+        meta = 082
+        frag = 015
+        old = 166 normal
+        new = 033 normal
+        context = 015
+        commit = 226
+[push]
+	default = upstream
