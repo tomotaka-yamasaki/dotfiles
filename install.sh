@@ -7,7 +7,7 @@ do
     [[ "$f" == ".git" ]] && continue
     [[ "$f" == ".DS_Store" ]] && continue
 
-    ln -snfv "$PWD/$f" ~/
+    ln -snfv "$PWD/$f" ~
     echo "$f"
 done
 
