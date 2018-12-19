@@ -31,16 +31,16 @@ PROMPT_COMMAND='echo -ne "\033]0;${HOSTNAME%%.*}:${PWD/$HOME/~}\007"'
 export LSCOLORS=cxfxcxdxbxegedabagacad
 
 # NDK_ROOT for cocos2d-x
-export NDK_ROOT=/usr/local/Cellar/android-ndk/r10e
+export NDK_ROOT=$HOME/Library/Android/ndk/android-ndk-r10e
 export PATH=$NDK_ROOT:$PATH
 
 # ANDROID_SDK_ROOT for cocos2d-x
-export ANDROID_SDK_ROOT=/usr/local/Cellar/android-sdk/24.2
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 export PATH=$ANDROID_SDK_ROOT:$PATH
 export PATH=$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$PATH
 
 # ANT_ROOT for cocos2d-x
-export ANT_ROOT=/usr/local/Cellar/ant/1.9.4/libexec/bin
+export ANT_ROOT=/usr/local/Cellar/ant/1.10.5/libexec/bin
 export PATH=$ANT_ROOT:$PATH
 
 # ANDROID_HOME for cocos2d-x
