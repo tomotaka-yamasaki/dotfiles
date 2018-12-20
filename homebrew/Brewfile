@@ -14,3 +14,5 @@ brew "jq"
 brew "mecab"
 brew "oath-toolkit"
 brew "sqlcipher"
+brew "wget"
+
