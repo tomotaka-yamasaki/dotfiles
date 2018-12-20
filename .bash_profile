@@ -2,6 +2,10 @@
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
 
+# Java
+export JAVA_HOME=$(/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.8")
+export PATH=$JAVA_HOME/bin:$PATH
+
 # rbenv
 eval "$(rbenv init -)"
 
