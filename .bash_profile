@@ -19,14 +19,14 @@ export PATH=$PYENV_ROOT/bin:$PATH
 eval "$(pyenv init -)"
 
 # git settings
-export PATH=/usr/local/Cellar/git/2.20.1/bin:$PATH
+export PATH=/usr/local/Cellar/git/2.22.0_1/bin:$PATH
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='\[\033[33m\]\u\[\033[0m\]:\W\[\033[31m\]$(__git_ps1 [%s])\[\033[0m\]\$ '
 
 # git diff-highlight
-export PATH=$PATH:/usr/local/Cellar/git/2.20.1/share/git-core/contrib/diff-highlight
+export PATH=$PATH:/usr/local/Cellar/git/2.22.0_1/share/git-core/contrib/diff-highlight
 
 # iTerm2 settings
 PROMPT_COMMAND='echo -ne "\033]0;${HOSTNAME%%.*}:${PWD/$HOME/~}\007"'
@@ -35,7 +35,7 @@ PROMPT_COMMAND='echo -ne "\033]0;${HOSTNAME%%.*}:${PWD/$HOME/~}\007"'
 export LSCOLORS=cxfxcxdxbxegedabagacad
 
 # NDK_ROOT for cocos2d-x
-export NDK_ROOT=$HOME/Library/Android/ndk/android-ndk-r10e
+export NDK_ROOT=$HOME/Library/Android/ndk/android-ndk
 export PATH=$NDK_ROOT:$PATH
 
 # ANDROID_SDK_ROOT for cocos2d-x
