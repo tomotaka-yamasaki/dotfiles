@@ -15,4 +15,5 @@ brew "mecab"
 brew "oath-toolkit"
 brew "sqlcipher"
 brew "wget"
+brew "nodebrew"
 
