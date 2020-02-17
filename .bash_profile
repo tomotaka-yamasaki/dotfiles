@@ -55,6 +55,9 @@ export PATH=$ANDROID_HOME:$PATH
 export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
 
+# nodebrew
+export PATH="$HOME/.nodebrew/current/bin:$PATH"
+
 # nvm
 if [[ -s ~/.nvm/nvm.sh ]] ; then
     source ~/.nvm/nvm.sh
