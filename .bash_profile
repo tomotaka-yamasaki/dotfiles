@@ -19,14 +19,14 @@ export PATH=$PYENV_ROOT/bin:$PATH
 eval "$(pyenv init -)"
 
 # git settings
-export PATH=/usr/local/Cellar/git/*/bin:$PATH
+export PATH=/usr/local/Cellar/git/2.26.0/bin:$PATH
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='\[\033[33m\]\u\[\033[0m\]:\W\[\033[31m\]$(__git_ps1 [%s])\[\033[0m\]\$ '
 
 # git diff-highlight
-export PATH=$PATH:/usr/local/Cellar/git/*/share/git-core/contrib/diff-highlight
+export PATH=$PATH:/usr/local/Cellar/git/2.26.0/share/git-core/contrib/diff-highlight
 
 # iTerm2 settings
 PROMPT_COMMAND='echo -ne "\033]0;${HOSTNAME%%.*}:${PWD/$HOME/~}\007"'
