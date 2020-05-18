@@ -4,4 +4,6 @@
     "C_Cpp.dimInactiveRegions": false,
     "python.jediEnabled": false,
     "python.pythonPath": "/Users/tomotaka.yamasaki/.pyenv/shims/python3",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
 }
