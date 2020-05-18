@@ -3,5 +3,5 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "C_Cpp.dimInactiveRegions": false,
     "python.jediEnabled": false,
-    "python.pythonPath": "/Users/tomotaka.yamasaki/.pyenv/versions/3.7.4/bin/python",
+    "python.pythonPath": "/Users/tomotaka.yamasaki/.pyenv/shims/python3",
 }
