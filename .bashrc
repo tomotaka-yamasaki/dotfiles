@@ -18,4 +18,3 @@ alias git-add-nf='git add `awk "{print $NF}"`'
 # gcc alias
 alias gcc6='/usr/local/Cellar/gcc/6.3.0_1/bin/gcc-6'
 alias g++6='/usr/local/Cellar/gcc/6.3.0_1/bin/g++-6'
-
