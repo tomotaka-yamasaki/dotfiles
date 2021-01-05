@@ -6,4 +6,9 @@
     "python.pythonPath": "/Users/tomotaka.yamasaki/.pyenv/shims/python3",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "python.languageServer": "Microsoft",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
 }
