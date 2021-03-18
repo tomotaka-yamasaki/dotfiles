@@ -1,5 +1,5 @@
 # git settings
-export PATH=/usr/local/Cellar/git/2.26.2/bin:$PATH
+export PATH=/usr/local/Cellar/git/2.31.0/bin:$PATH
 
 ## git-promptの読み込み
 source ~/.zsh/git-prompt.sh
@@ -19,7 +19,7 @@ GIT_PS1_SHOWUPSTREAM=auto
 setopt PROMPT_SUBST ; PS1='%F{yellow}%n%f:%F{cyan}%~%f%F{red}$(__git_ps1 "[%s]")%f\$ '
 
 ## git diff-highlight
-export PATH=$PATH:/usr/local/Cellar/git/2.26.2/share/git-core/contrib/diff-highlight
+export PATH=$PATH:/usr/local/Cellar/git/2.31.0/share/git-core/contrib/diff-highlight
 
 # iTerm2 settings
 PROMPT_COMMAND='echo -ne "\033]0;${HOSTNAME%%.*}:${PWD/$HOME/~}\007"'
