@@ -57,6 +57,7 @@ alias llh='ls -lh'
 alias cf='cd'
 alias ctags='/usr/local/bin/ctags'
 alias gcc='gcc -Wall -lm'
+alias pbcopy='pbcopy && pbpaste'
 
 # git alias
 alias git-branch-D-all='git branch | egrep -v "\*" | xargs git branch -D'
